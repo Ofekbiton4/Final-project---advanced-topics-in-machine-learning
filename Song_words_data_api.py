@@ -45,7 +45,7 @@ for track in tracks:  # Just showing the first 10 tracks as an example
 
 df = pd.DataFrame(final_data)
 
-excel_file_path = 'ofek.xlsx'
+excel_file_path = 'WordSongsData.xlsx'
 df.to_excel(excel_file_path, index=False)
 
 print(f"Excel file '{excel_file_path}' created successfully with {len(final_data)} songs.")
